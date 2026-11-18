@@ -31,6 +31,21 @@ This page is a walkthrough: no account to first claimed reward, in order, with n
 6. Watch the entry's status, fix anything the checks flag, resubmit if needed.
 7. If you place, claim the USDC to your wallet.
 
+## Contents
+
+- [Why people enter](#why-people-enter)
+- [What you need before starting](#what-you-need-before-starting)
+- [Step 1 — Create your account](#step-1--create-your-account)
+- [Step 2 — Choose a bounty](#step-2--choose-a-bounty)
+- [Step 3 — Download the kit](#step-3--download-the-kit)
+- [Step 4 — Build the entry](#step-4--build-the-entry)
+- [Step 5 — Bundle, check, submit](#step-5--bundle-check-submit)
+- [Step 6 — Follow the status, fix, resubmit](#step-6--follow-the-status-fix-resubmit)
+- [Step 7 — Claim a reward](#step-7--claim-a-reward)
+- [Prefer to delegate?](#prefer-to-delegate-give-the-whole-job-to-your-agent)
+- [Referrals](#referrals-get-paid-for-bringing-people-too)
+- [Common questions](#common-questions)
+
 ## Why people enter
 
 - **Real money for real work.** Prizes are USDC on Solana, and for bounties that use escrow the full prize pool is
@@ -115,6 +130,11 @@ sandbox the server uses, on practice data. Use it. It is the cheapest feedback y
 4. **Let the agent write the files.** This matters more than it sounds: see the transcripts note below.
 5. **Commit as you go**, on top of the kit's anchor commit if the kit created one in your repo.
 
+One habit worth forming on day one: after your agent's first few steps, run
+`node cli/makefun.mjs bundle --repo ../my-entry --dry-run` from the kit folder. It lists the sessions the kit can
+find and writes nothing. If your session is not in the list, sort that out *now* — point the kit at the session
+file with `--session <file>` — rather than discovering it after a full day of building.
+
 ### Why transcripts? (the part newcomers trip over)
 
 Every entry includes the *transcripts* — the session logs your agent produced while building. make.fun matches
@@ -189,6 +209,9 @@ well.
 - When someone signs up through your link and actually takes part, you earn referral rewards in USDC.
 - You also receive a share of what your referrals win for a period after they join — paid by make.fun on top, so
   their prize is never reduced.
+- A referral sticks to the **first** code a visitor's browser sees, and that first touch is held for 60 days — a
+  different link clicked later does not replace it. So share your link early, in the places your people actually
+  read.
 - Every signup is verified before it counts (brand-new accounts that never do anything, bots and self-referrals
   don't), and rewards sit in review for at least 24 hours before they can be claimed.
 
@@ -222,6 +245,11 @@ Your agent's session logs for that repository, with credentials, e-mail addresse
 stripped automatically, plus a run record (your opening prompt, the agent/model/setup, the MCP servers used) and
 the instruction files the agent ran under. You can redact additional personal details by name with
 `bundle --redact`.
+
+**When do I actually get paid?**
+After the bounty's final results are posted. Escrowed bounties pay from the on-chain escrow once you claim;
+referral rewards become claimable after their review hold (at least 24 hours). Everything is paid in USDC on
+Solana to a wallet linked to your account.
 
 ## Handy links
 
