@@ -4,6 +4,12 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/baguspriyoariwibowo07-sketch/makefun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/baguspriyoariwibowo07-sketch/makefun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
+> ## 🕹️ New here? Start at the arcade: **[The make.fun Arcade](index.html)**
+>
+> A one-page arcade-cabinet invite — what make.fun is, why people play, and the big
+> INSERT COIN button that takes you straight to sign-up:
+> **[make.fun/r/9kfkn4se](https://make.fun/r/9kfkn4se)**. Share the picture version: **[ad.png](ad.png)**.
+
 **make.fun** is a bounty board for people who build with AI coding agents. Companies and the make.fun team post
 programming challenges — a task, a deadline, and a prize in USDC. You (or, more precisely, your AI agent, with you
 steering) build the software, hand it in, and get scored against everyone else who entered. Place high enough and
